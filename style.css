@@ -1,11 +1,20 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
 
-*, ::after, ::before { box-sizing: inherit; }
+html {
+    box-sizing: border-box;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: inherit;
+}
 
 body {
     text-rendering: optimizeLegibility;
+    /* nepřepisovat!! */
 }
+
 
 /*
  BARVY
@@ -24,4 +33,5 @@ body {
  border-radius: 30px;
 */
 
-/* ----- zde zacni psat vlastni css ----- */
+
+/* ----- zde zacni psat vlastni css ----- !!!!*/
